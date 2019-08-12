@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         getAuthorization();
         
         view.addSubview(stepLabel);
-        stepLabel.frame = CGRect(x: 100, y: 100, width: 100, height: 100);
+        stepLabel.frame = CGRect(x: 100, y: 200, width: 200, height: 200);
     }
 
     fileprivate func getAuthorization(){
